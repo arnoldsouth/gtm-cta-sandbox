@@ -252,10 +252,10 @@ function App() {
         <Page title="Automotive Dealership">
           <Layout>
             <Layout.Section>
-              <BlockStack gap="4">
+              <BlockStack>
                 <Card>
                   <div style={{ padding: "1rem" }}>
-                    <BlockStack gap="4">
+                    <BlockStack>
                       <div>
                         <Text variant="headingLg" as="h2">
                           {vehicleData.year} {vehicleData.make}{" "}
@@ -275,13 +275,13 @@ function App() {
 
                       <Grid>
                         <Grid.Cell columnSpan={{ xs: 6, sm: 3, md: 3, lg: 3 }}>
-                          <BlockStack gap="2" alignment="center">
+                          <BlockStack>
                             <Icon source={Car} />
                             <Text as="span">{vehicleData.specs.engine}</Text>
                           </BlockStack>
                         </Grid.Cell>
                         <Grid.Cell columnSpan={{ xs: 6, sm: 3, md: 3, lg: 3 }}>
-                          <BlockStack gap="2" alignment="center">
+                          <BlockStack>
                             <Icon source={Engine} />
                             <Text as="span">
                               {vehicleData.specs.horsepower}
@@ -289,7 +289,7 @@ function App() {
                           </BlockStack>
                         </Grid.Cell>
                         <Grid.Cell columnSpan={{ xs: 6, sm: 3, md: 3, lg: 3 }}>
-                          <BlockStack gap="2" alignment="center">
+                          <BlockStack>
                             <Icon source={GasPump} />
                             <Text as="span">
                               {vehicleData.specs.fuelEconomy}
@@ -297,7 +297,7 @@ function App() {
                           </BlockStack>
                         </Grid.Cell>
                         <Grid.Cell columnSpan={{ xs: 6, sm: 3, md: 3, lg: 3 }}>
-                          <BlockStack gap="2" alignment="center">
+                          <BlockStack>
                             <Icon source={Speedometer} />
                             <Text as="span">
                               {vehicleData.specs.acceleration}
@@ -307,7 +307,7 @@ function App() {
                       </Grid>
 
                       <div style={{ marginTop: "1rem" }}>
-                        <BlockStack gap="2">
+                        <BlockStack>
                           <Button
                             variant="primary"
                             onClick={handleTestDrive}
@@ -329,7 +329,7 @@ function App() {
 
                 <Card>
                   <div style={{ padding: "1rem" }}>
-                    <BlockStack gap="4">
+                    <BlockStack>
                       <Text variant="headingMd" as="h3">
                         Key Features
                       </Text>
