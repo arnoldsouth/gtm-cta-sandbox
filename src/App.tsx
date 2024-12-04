@@ -34,7 +34,7 @@ declare global {
 
 // GTM configuration
 const tagManagerArgs = {
-  gtmId: "GTM-MBB4RX9S", // Replace with your actual GTM ID
+  // gtmId: "GTM-XXXXXX", // Replace with your actual GTM ID
 };
 
 // Vehicle data
